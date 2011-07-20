@@ -144,6 +144,7 @@ sub BUILD {
 sub handle_show {
     my ( $self, $delta, $app ) = @_;
 
+    $app->draw_rect( undef, 0x000000FF );
     $self->background->blit( $app, [ 0, 0, $app->w, $app->h ] );
 
     my $p1 = $self->player1->spaceship->power * 3;
