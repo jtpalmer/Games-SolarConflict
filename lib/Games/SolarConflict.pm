@@ -1,4 +1,7 @@
 package Games::SolarConflict;
+
+# ABSTRACT: Spacewar! cone
+
 use Mouse;
 use SDL;
 use SDL::Rect;
@@ -194,3 +197,20 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 1;
+
+__END__
+
+=head1 NAME
+
+Games::SolarConflict - Spacewar! clone
+
+=head1 SYNOPSIS
+
+    perl solarconflict.pl
+
+=head1 DESCRIPTION
+
+Games::SolarConflict is a Spacewar! clone.
+
+=cut
+
