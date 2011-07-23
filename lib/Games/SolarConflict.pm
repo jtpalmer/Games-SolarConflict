@@ -212,5 +212,27 @@ Games::SolarConflict - Spacewar! clone
 
 Games::SolarConflict is a Spacewar! clone.
 
+=head1 BUGS AND LIMITATIONS
+
+Please report bugs at: https://github.com/jtpalmer/Games-SolarConflict/issues
+
+=head1 AUTHOR
+
+Jeffrey T. Palmer C<< <jtpalmer@cpan.org> >>
+
+=head1 SEE ALSO
+
+=over 4
+
+=item *
+
+L<SDL>
+
+=item *
+
+L<http://en.wikipedia.org/wiki/Spacewar!>
+
+=back
+
 =cut
 
