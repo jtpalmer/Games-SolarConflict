@@ -89,7 +89,7 @@ around BUILDARGS => sub {
     my $assets = $args{assets};
 
     my %file = (
-        background => $assets->file('background.bmp'),
+        background => $assets->file('background.png'),
         sun        => $assets->file('sun.bmp'),
         spaceship1 => $assets->file('spaceship1.bmp'),
         spaceship2 => $assets->file('spaceship2.bmp'),
