@@ -1,6 +1,6 @@
 package Games::SolarConflict;
 
-# ABSTRACT: Spacewar! cone
+# ABSTRACT: Spacewar! clone
 
 use Mouse;
 use SDL;
