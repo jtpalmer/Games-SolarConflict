@@ -40,8 +40,10 @@ sub draw {
     SDL::GFX::Primitives::filled_circle_color( $surface, $self->x, $self->y,
         $self->r, $self->color );
     return [
-        $self->x - $self->r / 2, $self->y - $self->r / 2,
-        $self->r,                $self->r
+        $self->x - $self->r - 1,
+        $self->y - $self->r - 1,
+        $self->r * 2 + 2,
+        $self->r * 2 + 2
     ];
 }
 
