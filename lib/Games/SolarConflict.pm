@@ -90,10 +90,10 @@ around BUILDARGS => sub {
 
     my %file = (
         background => $assets->file('background.png'),
-        sun        => $assets->file('sun.bmp'),
-        spaceship1 => $assets->file('spaceship1.bmp'),
-        spaceship2 => $assets->file('spaceship2.bmp'),
-        explosion  => $assets->file('explosion.bmp'),
+        sun        => $assets->file('sun.png'),
+        spaceship1 => $assets->file('spaceship1.png'),
+        spaceship2 => $assets->file('spaceship2.png'),
+        explosion  => $assets->file('explosion.png'),
     );
 
     my %view = (
@@ -118,11 +118,6 @@ around BUILDARGS => sub {
             ticks_per_frame => 2,
         ),
     );
-
-    $view{sun}->alpha_key(0xFF0000);
-    $view{spaceship1}->alpha_key(0xFF0000);
-    $view{spaceship2}->alpha_key(0xFF0000);
-    $view{explosion}->alpha_key(0x00FF00);
 
     my @torpedos1 = map { Games::SolarConflict::Torpedo->new() } 1 .. 10;
     my @torpedos2 = map { Games::SolarConflict::Torpedo->new() } 1 .. 10;
