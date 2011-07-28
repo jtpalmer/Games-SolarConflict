@@ -58,6 +58,8 @@ sub draw {
     $self->sprite->y( $self->y - $self->rect->h / 2 );
     $self->sprite->rotation( $self->rotation );
     $self->sprite->draw($surface);
+
+    # TODO: copy rect and increase size 1px in each direction
     return $self->rect;
 }
 

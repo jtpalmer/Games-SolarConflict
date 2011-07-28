@@ -155,6 +155,8 @@ sub handle_show {
     my $p2 = $self->player2->spaceship->power * 3;
     $p1 = 0 if $p1 < 0;
     $p2 = 0 if $p2 < 0;
+
+    # TODO: add these to @rects below
     $app->draw_rect( [ 20, $app->h - 40, $p1, 5 ], 0xFFFFFFFF );
     $app->draw_rect( [ -20 + $app->w - $p2, $app->h - 40, $p2, 5 ],
         0xFFFFFFFF );
