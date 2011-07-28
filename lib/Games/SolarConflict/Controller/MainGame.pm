@@ -139,6 +139,10 @@ sub BUILD {
     $self->add_object($_) foreach ( @{ $s1->torpedos }, @{ $s2->torpedos } );
 
     $_->peers( $self->objects ) foreach @{ $self->objects };
+
+    $app->draw_rect( undef, 0x000000FF );
+    $self->background->blit( $app, [ 0, 0, $app->w, $app->h ] );
+    $app->update();
 }
 
 sub handle_show {
