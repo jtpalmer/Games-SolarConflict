@@ -33,7 +33,7 @@ has cols => (
 sub rotation {
     my ( $self, $rot ) = @_;
 
-    while ( $rot > 360 ) { $rot -= 360 }
+    while ( $rot >= 360 ) { $rot -= 360 }
     while ( $rot < 0 ) { $rot += 360 }
 
     my $frame = int( $rot / $self->increment );
