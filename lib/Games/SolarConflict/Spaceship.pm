@@ -59,8 +59,12 @@ sub draw {
     $self->sprite->rotation( $self->rotation );
     $self->sprite->draw($surface);
 
-    # TODO: copy rect and increase size 1px in each direction
-    return $self->rect;
+    return [
+        $self->rect->x - 1,
+        $self->rect->y - 1,
+        $self->rect->w + 2,
+        $self->rect->h + 2
+    ];
 }
 
 sub interact {
