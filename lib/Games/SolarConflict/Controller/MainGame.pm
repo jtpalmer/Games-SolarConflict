@@ -156,12 +156,13 @@ sub handle_show {
     $p1 = 0 if $p1 < 0;
     $p2 = 0 if $p2 < 0;
 
-    # TODO: add these to @rects below
-    $app->draw_rect( [ 20, $app->h - 40, $p1, 5 ], 0xFFFFFFFF );
-    $app->draw_rect( [ -20 + $app->w - $p2, $app->h - 40, $p2, 5 ],
-        0xFFFFFFFF );
+    my ( $x, $y, $h ) = ( 20, $app->h - 40, 5 );
+    $app->draw_rect( [ $x, $y, $p1, $h ], 0xFFFFFFFF );
+    $app->draw_rect( [ -$x + $app->w - $p2, $y, $p2, $h ], 0xFFFFFFFF );
 
-    my @rects = map { $_->draw($app) } @{ $self->objects };
+    my @rects = ( [ 0, $y, $app->w, $h ] );
+
+    push @rects, $_->draw($app) foreach @{ $self->objects };
     $app->update( \@rects );
 }
 
