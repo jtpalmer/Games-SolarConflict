@@ -30,6 +30,26 @@ has cols => (
     default => sub { $_[0]->w / $_[0]->rect->w },
 );
 
+# XXX SDL_BlitSurface alters the destination rect if there is clipping,
+# so save and restore it
+around draw => sub {
+    my ( $orig, $self, $surface ) = @_;
+
+    my $x = $self->rect->x;
+    my $y = $self->rect->y;
+    my $w = $self->rect->w;
+    my $h = $self->rect->h;
+
+    my @rects = $self->$orig($surface);
+
+    $self->rect->x($x);
+    $self->rect->y($y);
+    $self->rect->w($w);
+    $self->rect->h($h);
+
+    return @rects;
+};
+
 sub rotation {
     my ( $self, $rot ) = @_;
 
