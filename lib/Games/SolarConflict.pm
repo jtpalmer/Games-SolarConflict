@@ -199,10 +199,6 @@ __END__
 
 Games::SolarConflict - Spacewar! clone
 
-=head1 SYNOPSIS
-
-    perl solarconflict.pl
-
 =head1 DESCRIPTION
 
 Games::SolarConflict is a Spacewar! clone.
