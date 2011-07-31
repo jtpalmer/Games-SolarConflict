@@ -165,7 +165,11 @@ sub handle_show {
     my @rects = ( [ 0, $y, $app->w, $h ] );
 
     push @rects, $_->draw($app) foreach @{ $self->objects };
-    $app->update( \@rects );
+
+    # XXX need to cache rects at this level, not in the drawable role
+    #$app->update( \@rects );
+
+    $app->update();
 }
 
 sub handle_event {
