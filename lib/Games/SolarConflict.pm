@@ -195,10 +195,6 @@ no Mouse;
 
 __END__
 
-=head1 NAME
-
-Games::SolarConflict - Spacewar! clone
-
 =head1 DESCRIPTION
 
 Games::SolarConflict is a Spacewar! clone.
@@ -206,10 +202,6 @@ Games::SolarConflict is a Spacewar! clone.
 =head1 BUGS AND LIMITATIONS
 
 Please report bugs at: https://github.com/jtpalmer/Games-SolarConflict/issues
-
-=head1 AUTHOR
-
-Jeffrey T. Palmer C<< <jtpalmer@cpan.org> >>
 
 =head1 SEE ALSO
 

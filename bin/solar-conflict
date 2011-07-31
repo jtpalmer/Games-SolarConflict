@@ -6,6 +6,8 @@ use Path::Class;
 use lib "$Bin/../lib";
 use Games::SolarConflict;
 
+# PODNAME: solar-conflict
+
 my $share = dir( $Bin, '..', 'share' );
 my $game = Games::SolarConflict->new( assets => $share );
 $game->run();
