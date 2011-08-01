@@ -1,14 +1,19 @@
 package Games::SolarConflict;
+use Mouse;
 
 # ABSTRACT: Spacewar! clone
 
-use Mouse;
 use SDL;
 use SDL::Rect;
 use SDLx::App;
 use SDLx::Surface;
 use SDLx::Sprite;
 use SDLx::Sprite::Animated;
+
+use FindBin qw($Bin);
+use Path::Class qw(dir);
+use File::ShareDir qw(dist_dir);
+
 use Games::SolarConflict::Sprite::Rotatable;
 use Games::SolarConflict::Sun;
 use Games::SolarConflict::Spaceship;
@@ -86,7 +91,14 @@ around BUILDARGS => sub {
         eoq   => 1,
     );
 
-    my $assets = $args{assets};
+    my $assets;
+    my $root = dir( $Bin, '..' );
+    if ( -f $root->file('dist.ini') ) {
+        $assets = $root->subdir('share');
+    }
+    else {
+        $assets = dir( dist_dir('Games-SolarConflict') );
+    }
 
     my %file = (
         background => $assets->file('background.png'),
