@@ -16,11 +16,13 @@ sub _build_title {
     my ($self) = @_;
 
     return SDLx::Text->new(
-        color   => 0xFFFFFFFF,
+        color   => 0xAAAAAAFF,
         size    => 96,
+        font    => $self->game->font,
         text    => 'Solar Conflict',
         h_align => 'center',
         x       => $self->game->app->w / 2,
+        y       => 50,
     );
 }
 

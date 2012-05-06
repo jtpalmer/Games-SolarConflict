@@ -31,6 +31,12 @@ has app => (
     handles  => [qw( run )],
 );
 
+has font => (
+    is       => 'ro',
+    isa      => 'Str',
+    required => 1,
+);
+
 has background => (
     is       => 'ro',
     isa      => 'SDLx::Surface',
@@ -103,6 +109,7 @@ around BUILDARGS => sub {
         spaceship1 => $assets->file('spaceship1.png'),
         spaceship2 => $assets->file('spaceship2.png'),
         explosion  => $assets->file('explosion.png'),
+        font       => $assets->file('DejaVuSansMono-BoldOblique.ttf'),
     );
 
     my %view = (
@@ -133,6 +140,7 @@ around BUILDARGS => sub {
 
     my %objects = (
         app        => $app,
+        font       => "$file{font}",
         background => $view{background},
         sun        => Games::SolarConflict::Sun->new( sprite => $view{sun} ),
         spaceship1 => Games::SolarConflict::Spaceship->new(
