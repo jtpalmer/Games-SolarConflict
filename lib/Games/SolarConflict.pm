@@ -67,16 +67,13 @@ sub _build_controllers {
 
     return {
         main_menu => sub {
-            my (%args) = @_;
-            return Games::SolarConflict::Controller::MainMenu->new(%args);
+            return Games::SolarConflict::Controller::MainMenu->new(@_);
         },
         main_game => sub {
-            my (%args) = @_;
-            return Games::SolarConflict::Controller::MainGame->new(%args);
+            return Games::SolarConflict::Controller::MainGame->new(@_);
         },
         game_over => sub {
-            my (%args) = @_;
-            return Games::SolarConflict::Controller::GameOver->new(%args);
+            return Games::SolarConflict::Controller::GameOver->new(@_);
         },
     };
 }
