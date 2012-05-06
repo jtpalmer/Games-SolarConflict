@@ -28,6 +28,7 @@ sub handle_show {
     my ( $self, $delta, $app ) = @_;
 
     $app->draw_rect( [ 0, 0, $app->w, $app->h ], 0x000000FF );
+    $self->game->background->blit( $app, [ 0, 0, $app->w, $app->h ] );
 
     $self->title->write_to($app);
 
