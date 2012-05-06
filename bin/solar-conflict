@@ -1,12 +1,9 @@
-#!/usr/bin/env perl
+#!perl
 use strict;
 use warnings;
-
-use FindBin qw($Bin);
-use lib "$Bin/../lib";
-
 use Games::SolarConflict;
 
 # PODNAME: solar-conflict
 
 Games::SolarConflict->new->run();
+
