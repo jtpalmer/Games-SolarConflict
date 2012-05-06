@@ -3,7 +3,7 @@ use Mouse;
 
 # ABSTRACT: Spacewar! clone
 
-use SDL;
+use SDL 2.532;
 use SDL::Rect;
 use SDLx::App;
 use SDLx::Surface;
