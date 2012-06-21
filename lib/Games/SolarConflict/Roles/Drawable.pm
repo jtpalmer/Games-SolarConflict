@@ -1,6 +1,10 @@
 package Games::SolarConflict::Roles::Drawable;
+use strict;
+use warnings;
 use Mouse::Role;
 use SDL::Rect;
+
+# ABSTRACT: Drawable role
 
 requires qw( draw );
 
@@ -28,3 +32,4 @@ around draw => sub {
 no Mouse::Role;
 
 1;
+

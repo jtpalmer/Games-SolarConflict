@@ -1,7 +1,11 @@
 package Games::SolarConflict::Roles::Physical;
+use strict;
+use warnings;
 use Mouse::Role;
 use SDLx::Controller::Interface;
 use SDLx::Controller::State;
+
+# ABSTRACT: Physical object role
 
 # Acceleration produced by object on itself
 has [qw( a_x a_y ang_a )] => (
@@ -123,3 +127,4 @@ sub interact { }
 no Mouse::Role;
 
 1;
+

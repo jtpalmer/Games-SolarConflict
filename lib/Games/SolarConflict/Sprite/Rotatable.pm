@@ -1,6 +1,10 @@
 package Games::SolarConflict::Sprite::Rotatable;
+use strict;
+use warnings;
 use Mouse;
 use SDLx::Sprite::Animated;
+
+# ABSTRACT: Rotatable sprite
 
 has _sprite => (
     is       => 'ro',
@@ -68,3 +72,4 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 1;
+

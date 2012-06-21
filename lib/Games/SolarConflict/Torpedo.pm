@@ -1,10 +1,14 @@
 package Games::SolarConflict::Torpedo;
+use strict;
+use warnings;
 use Mouse;
 use SDL::Color;
 use SDL::GFX::Primitives;
 
 with 'Games::SolarConflict::Roles::Drawable';
 with 'Games::SolarConflict::Roles::Physical';
+
+# ABSTRACT: Torpedo model
 
 has '+r' => ( default => 3 );
 
@@ -52,3 +56,4 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 1;
+

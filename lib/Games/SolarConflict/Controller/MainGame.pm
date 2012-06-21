@@ -1,4 +1,6 @@
 package Games::SolarConflict::Controller::MainGame;
+use strict;
+use warnings;
 use Mouse;
 use SDL::Event;
 use SDL::Events;
@@ -6,6 +8,8 @@ use Games::SolarConflict::Roles::Player;
 use Games::SolarConflict::Roles::Physical;
 
 with 'Games::SolarConflict::Roles::Controller';
+
+# ABSTRACT: Main game controller
 
 has players => (
     is       => 'ro',
@@ -266,3 +270,4 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 1;
+

@@ -1,6 +1,10 @@
 package Games::SolarConflict::Roles::Explosive;
+use strict;
+use warnings;
 use Mouse::Role;
 use SDLx::Sprite::Animated;
+
+# ABSTRACT: Explosive object role
 
 requires qw( x y draw visible reset );
 
@@ -52,3 +56,4 @@ sub explode {
 no Mouse::Role;
 
 1;
+

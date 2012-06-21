@@ -1,10 +1,14 @@
 package Games::SolarConflict::Controller::MainMenu;
+use strict;
+use warnings;
 use Mouse;
 use SDL::Event;
 use SDL::Events;
 use SDLx::Text;
 
 with 'Games::SolarConflict::Roles::Controller';
+
+# ABSTRACT: Main menu controller
 
 has title => (
     is      => 'ro',
@@ -80,3 +84,4 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 1;
+

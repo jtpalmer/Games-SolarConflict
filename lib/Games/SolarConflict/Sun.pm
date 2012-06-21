@@ -1,7 +1,11 @@
 package Games::SolarConflict::Sun;
+use strict;
+use warnings;
 use Mouse;
 
 with 'Games::SolarConflict::Roles::Physical';
+
+# ABSTRACT: Sun model
 
 has '+r' => ( default => 38 );
 
@@ -36,3 +40,4 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 1;
+

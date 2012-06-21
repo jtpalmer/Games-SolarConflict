@@ -1,8 +1,12 @@
 package Games::SolarConflict::Spaceship;
+use strict;
+use warnings;
 use Mouse;
 use Math::Trig qw( deg2rad );
 
 with 'Games::SolarConflict::Roles::Physical';
+
+# ABSTRACT: Spaceship model
 
 has '+r' => ( default => 14 );
 
@@ -159,3 +163,4 @@ __PACKAGE__->meta->make_immutable;
 no Mouse;
 
 1;
+
