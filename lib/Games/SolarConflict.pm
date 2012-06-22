@@ -1,7 +1,7 @@
 package Games::SolarConflict;
+use strict;
+use warnings;
 use Mouse;
-
-# ABSTRACT: Spacewar! clone
 
 use SDL 2.532;
 use SDL::Rect;
@@ -23,6 +23,8 @@ use Games::SolarConflict::ComputerPlayer;
 use Games::SolarConflict::Controller::MainMenu;
 use Games::SolarConflict::Controller::MainGame;
 use Games::SolarConflict::Controller::GameOver;
+
+# ABSTRACT: Spacewar! clone
 
 has app => (
     is       => 'ro',
