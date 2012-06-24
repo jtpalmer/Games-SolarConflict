@@ -1,4 +1,7 @@
 package Games::SolarConflict;
+
+# ABSTRACT: Spacewar! clone
+
 use strict;
 use warnings;
 use Mouse;
@@ -23,8 +26,6 @@ use Games::SolarConflict::ComputerPlayer;
 use Games::SolarConflict::Controller::MainMenu;
 use Games::SolarConflict::Controller::MainGame;
 use Games::SolarConflict::Controller::GameOver;
-
-# ABSTRACT: Spacewar! clone
 
 has app => (
     is       => 'ro',

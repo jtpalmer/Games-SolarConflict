@@ -1,9 +1,10 @@
 package Games::SolarConflict::Roles::Controller;
+
+# ABSTRACT: Controller role
+
 use strict;
 use warnings;
 use Mouse::Role;
-
-# ABSTRACT: Controller role
 
 has game => (
     is       => 'rw',

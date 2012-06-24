@@ -1,11 +1,12 @@
 package Games::SolarConflict::ComputerPlayer;
+
+# ABSTRACT: Computer player model
+
 use strict;
 use warnings;
 use Mouse;
 
 with 'Games::SolarConflict::Roles::Player';
-
-# ABSTRACT: Computer player model
 
 has _fire_time => (
     is      => 'rw',

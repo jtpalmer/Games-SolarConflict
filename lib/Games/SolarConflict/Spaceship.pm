@@ -1,12 +1,13 @@
 package Games::SolarConflict::Spaceship;
+
+# ABSTRACT: Spaceship model
+
 use strict;
 use warnings;
 use Mouse;
 use Math::Trig qw( deg2rad );
 
 with 'Games::SolarConflict::Roles::Physical';
-
-# ABSTRACT: Spaceship model
 
 has '+r' => ( default => 14 );
 

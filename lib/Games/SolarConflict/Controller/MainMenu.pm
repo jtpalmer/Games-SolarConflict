@@ -1,4 +1,7 @@
 package Games::SolarConflict::Controller::MainMenu;
+
+# ABSTRACT: Main menu controller
+
 use strict;
 use warnings;
 use Mouse;
@@ -7,8 +10,6 @@ use SDL::Events;
 use SDLx::Text;
 
 with 'Games::SolarConflict::Roles::Controller';
-
-# ABSTRACT: Main menu controller
 
 has title => (
     is      => 'ro',

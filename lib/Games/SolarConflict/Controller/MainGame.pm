@@ -1,4 +1,7 @@
 package Games::SolarConflict::Controller::MainGame;
+
+# ABSTRACT: Main game controller
+
 use strict;
 use warnings;
 use Mouse;
@@ -8,8 +11,6 @@ use Games::SolarConflict::Roles::Player;
 use Games::SolarConflict::Roles::Physical;
 
 with 'Games::SolarConflict::Roles::Controller';
-
-# ABSTRACT: Main game controller
 
 has players => (
     is       => 'ro',

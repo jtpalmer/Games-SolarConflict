@@ -1,4 +1,7 @@
 package Games::SolarConflict::Controller::GameOver;
+
+# ABSTRACT: Game over controller
+
 use strict;
 use warnings;
 use Mouse;
@@ -6,8 +9,6 @@ use SDL::Event;
 use SDL::Events;
 
 with 'Games::SolarConflict::Roles::Controller';
-
-# ABSTRACT: Game over controller
 
 has players => (
     is       => 'ro',

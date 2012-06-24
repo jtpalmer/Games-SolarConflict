@@ -1,4 +1,7 @@
 package Games::SolarConflict::Torpedo;
+
+# ABSTRACT: Torpedo model
+
 use strict;
 use warnings;
 use Mouse;
@@ -7,8 +10,6 @@ use SDL::GFX::Primitives;
 
 with 'Games::SolarConflict::Roles::Drawable';
 with 'Games::SolarConflict::Roles::Physical';
-
-# ABSTRACT: Torpedo model
 
 has '+r' => ( default => 3 );
 

@@ -1,11 +1,12 @@
 package Games::SolarConflict::Sun;
+
+# ABSTRACT: Sun model
+
 use strict;
 use warnings;
 use Mouse;
 
 with 'Games::SolarConflict::Roles::Physical';
-
-# ABSTRACT: Sun model
 
 has '+r' => ( default => 38 );
 

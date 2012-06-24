@@ -1,10 +1,11 @@
 package Games::SolarConflict::Sprite::Rotatable;
+
+# ABSTRACT: Rotatable sprite
+
 use strict;
 use warnings;
 use Mouse;
 use SDLx::Sprite::Animated;
-
-# ABSTRACT: Rotatable sprite
 
 has _sprite => (
     is       => 'ro',

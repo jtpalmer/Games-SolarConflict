@@ -1,9 +1,10 @@
 package Games::SolarConflict::Roles::Player;
+
+# ABSTRACT: Player role
+
 use strict;
 use warnings;
 use Mouse::Role;
-
-# ABSTRACT: Player role
 
 has spaceship => (
     is       => 'ro',
