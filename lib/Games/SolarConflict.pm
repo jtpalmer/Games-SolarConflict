@@ -218,9 +218,76 @@ __END__
 
 Games::SolarConflict is a Spacewar! clone.
 
-=head1 BUGS AND LIMITATIONS
+This game was originally created for The SDL Perl Game Contest!
 
-Please report bugs at: https://github.com/jtpalmer/Games-SolarConflict/issues
+=head1 METHODS
+
+=head2 transit_to
+
+=over 4
+
+=item Arguments: $controller, %args?
+
+=item Return value: undefined
+
+=back
+
+Load a new controller.
+
+=over 4
+
+=item * $controller
+
+The name of the controller.
+
+=item * %args
+
+Any arguments to pass to the controller constructor.
+
+=back
+
+Description
+
+=head1 ATTRIBUTION
+
+The artwork contained in this module is licensed separately from the
+code.
+
+=over 4
+
+=item * backgound.bmp
+
+Author: L<beren77|http://opengameart.org/user/453>
+
+License: Public Domain
+
+L<http://opengameart.org/content/space-backdrop>
+
+=item * sun.bmp
+
+Author: L<NASA, Solar Dynamics Observatory|http://sdo.gsfc.nasa.gov/>
+
+License: Public Domain
+
+L<http://opengameart.org/content/the-sun>
+
+=item * spaceship1.bmp and spaceship2.bmp
+
+Author: L<Killy Overdrive|http://www.killyoverdrive.co.cc/>
+
+License: CC-BY 3.0
+
+L<http://opengameart.org/content/spaceship-360>
+
+=item * explosion.bmp
+
+Author: L<Jonas Wagner|http://29a.ch/>
+
+License: CC-BY-SA 3.0
+
+L<http://opengameart.org/content/asteroid-explosions-rocket-mine-and-laser>
+
+=back
 
 =head1 SEE ALSO
 
@@ -228,11 +295,19 @@ Please report bugs at: https://github.com/jtpalmer/Games-SolarConflict/issues
 
 =item *
 
+L<solar-conflict.pl>
+
+=item *
+
 L<SDL>
 
 =item *
 
-L<http://en.wikipedia.org/wiki/Spacewar!>
+L<The SDL Perl Game Contest!|http://onionstand.blogspot.com/2011/02/sdl-perl-game-contest.html>
+
+=item *
+
+L<Spacewar!|http://en.wikipedia.org/wiki/Spacewar!>
 
 =back
 
