@@ -215,39 +215,13 @@ no Mouse;
 
 __END__
 
+=for Pod::Coverage transit_to get_controller get_player
+
 =head1 DESCRIPTION
 
 Games::SolarConflict is a Spacewar! clone.
 
 This game was originally created for The SDL Perl Game Contest!
-
-=head1 METHODS
-
-=head2 transit_to
-
-=over 4
-
-=item Arguments: $controller, %args?
-
-=item Return value: undefined
-
-=back
-
-Load a new controller.
-
-=over 4
-
-=item * $controller
-
-The name of the controller.
-
-=item * %args
-
-Any arguments to pass to the controller constructor.
-
-=back
-
-Description
 
 =head1 ATTRIBUTION
 

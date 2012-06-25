@@ -58,3 +58,9 @@ no Mouse;
 
 1;
 
+=pod
+
+=for Pod::Coverage force_on interact
+
+=cut
+

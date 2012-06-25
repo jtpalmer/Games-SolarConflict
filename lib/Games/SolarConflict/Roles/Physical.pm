@@ -129,3 +129,9 @@ no Mouse::Role;
 
 1;
 
+=pod
+
+=for Pod::Coverage BUILD acc distance_from force_on interact intersects
+
+=cut
+

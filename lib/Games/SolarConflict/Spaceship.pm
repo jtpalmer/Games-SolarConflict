@@ -165,3 +165,9 @@ no Mouse;
 
 1;
 
+=pod
+
+=for Pod::Coverage decrease_power fire_torpedo interact warp
+
+=cut
+

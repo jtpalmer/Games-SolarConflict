@@ -56,3 +56,9 @@ no Mouse;
 
 1;
 
+=pod
+
+=for Pod::Coverage handle_event handle_show
+
+=cut
+

@@ -74,3 +74,9 @@ no Mouse;
 
 1;
 
+=pod
+
+=for Pod::Coverage rotation
+
+=cut
+

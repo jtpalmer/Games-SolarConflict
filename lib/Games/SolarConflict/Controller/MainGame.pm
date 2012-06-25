@@ -272,3 +272,9 @@ no Mouse;
 
 1;
 
+=pod
+
+=for Pod::Coverage add_object handle_event handle_move handle_show
+
+=cut
+

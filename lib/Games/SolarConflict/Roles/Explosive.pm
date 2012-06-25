@@ -58,3 +58,9 @@ no Mouse::Role;
 
 1;
 
+=pod
+
+=for Pod::Coverage explode
+
+=cut
+
