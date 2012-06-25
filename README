@@ -7,14 +7,71 @@ VERSION
 DESCRIPTION
     Games::SolarConflict is a Spacewar! clone.
 
-BUGS AND LIMITATIONS
-    Please report bugs at:
-    https://github.com/jtpalmer/Games-SolarConflict/issues
+    This game was originally created for The SDL Perl Game Contest!
+
+METHODS
+  transit_to
+    Arguments: $controller, %args?
+    Return value: undefined
+
+    Load a new controller.
+
+    *   $controller
+
+        The name of the controller.
+
+    *   %args
+
+        Any arguments to pass to the controller constructor.
+
+    Description
+
+ATTRIBUTION
+    The artwork contained in this module is licensed separately from the
+    code.
+
+    *   backgound.bmp
+
+        Author: beren77 <http://opengameart.org/user/453>
+
+        License: Public Domain
+
+        <http://opengameart.org/content/space-backdrop>
+
+    *   sun.bmp
+
+        Author: NASA, Solar Dynamics Observatory <http://sdo.gsfc.nasa.gov/>
+
+        License: Public Domain
+
+        <http://opengameart.org/content/the-sun>
+
+    *   spaceship1.bmp and spaceship2.bmp
+
+        Author: Killy Overdrive <http://www.killyoverdrive.co.cc/>
+
+        License: CC-BY 3.0
+
+        <http://opengameart.org/content/spaceship-360>
+
+    *   explosion.bmp
+
+        Author: Jonas Wagner <http://29a.ch/>
+
+        License: CC-BY-SA 3.0
+
+        <http://opengameart.org/content/asteroid-explosions-rocket-mine-and-
+        laser>
 
 SEE ALSO
+    *   solar-conflict.pl
+
     *   SDL
 
-    *   <http://en.wikipedia.org/wiki/Spacewar!>
+    *   The SDL Perl Game Contest!
+        <http://onionstand.blogspot.com/2011/02/sdl-perl-game-contest.html>
+
+    *   Spacewar! <http://en.wikipedia.org/wiki/Spacewar!>
 
 AUTHOR
     Jeffrey T. Palmer <jtpalmer@cpan.org>
