@@ -1,4 +1,8 @@
 #!perl
+
+# ABSTRACT: Play the game
+# PODNAME: solar-conflict.pl
+
 use strict;
 use warnings;
 
@@ -9,9 +13,6 @@ BEGIN {
 }
 
 use Games::SolarConflict;
-
-# PODNAME: solar-conflict.pl
-# ABSTRACT: Play the game
 
 Games::SolarConflict->new->run();
 
