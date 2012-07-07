@@ -272,9 +272,19 @@ no Mouse;
 
 1;
 
+__END__
+
 =pod
 
 =for Pod::Coverage add_object handle_event handle_move handle_show
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<Games::SolarConflict>
+
+=back
 
 =cut
 

@@ -14,3 +14,17 @@ no Mouse;
 
 1;
 
+__END__
+
+=pod
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<Games::SolarConflict>
+
+=back
+
+=cut
+

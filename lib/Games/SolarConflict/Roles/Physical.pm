@@ -129,9 +129,19 @@ no Mouse::Role;
 
 1;
 
+__END__
+
 =pod
 
 =for Pod::Coverage BUILD acc distance_from force_on interact intersects
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<Games::SolarConflict>
+
+=back
 
 =cut
 

@@ -165,9 +165,19 @@ no Mouse;
 
 1;
 
+__END__
+
 =pod
 
 =for Pod::Coverage decrease_power fire_torpedo interact warp
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<Games::SolarConflict>
+
+=back
 
 =cut
 

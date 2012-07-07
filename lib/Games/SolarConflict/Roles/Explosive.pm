@@ -58,9 +58,19 @@ no Mouse::Role;
 
 1;
 
+__END__
+
 =pod
 
 =for Pod::Coverage explode
+
+=head1 SEE ALSO
+
+=over 4
+
+=item * L<Games::SolarConflict>
+
+=back
 
 =cut
 
