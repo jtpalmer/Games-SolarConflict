@@ -239,35 +239,30 @@ available at L<http://font.ubuntu.com/>.
 
 =item * backgound.png
 
-Based on
-L<spacefield_a-000.png|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/spacefield_a-000.png&nid=3470>
-created by L<beren77|http://opengameart.org/user/453> and licensed under
-the Public Domain, available at
-L<http://opengameart.org/content/space-backdrop>.
+Based on spacefield_a-000.png created by
+L<beren77|http://opengameart.org/user/453> and licensed under the Public
+Domain, available at L<http://opengameart.org/content/space-backdrop>.
 
 =item * explosion.png
 
-Based on an image from
-L<jswars_gfx_cc3.zip|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/jswars_gfx_cc3.zip&nid=3282>
-created by L<Jonas Wagner|http://29a.ch/> and licensed under
+Based on an image from jswars_gfx_cc3.zip created by
+L<Jonas Wagner|http://29a.ch/> and licensed under
 L<CC-BY-SA 3.0|http://creativecommons.org/licenses/by-sa/3.0/legalcode>,
 available at
 L<http://opengameart.org/content/asteroid-explosions-rocket-mine-and-laser>.
 
 =item * spaceship1.png and spaceship2.png
 
-Based on
-L<ship360_32.png|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/ship360_32.png&nid=4883>
-created by L<Killy Overdrive|http://www.killyoverdrive.co.cc/> and licensed
-under L<CC-BY 3.0|http://creativecommons.org/licenses/by/3.0/legalcode>,
+Based on ship360_32.png created by
+L<Killy Overdrive|http://www.killyoverdrive.co.cc/> and licensed under
+L<CC-BY 3.0|http://creativecommons.org/licenses/by/3.0/legalcode>,
 available at L<http://opengameart.org/content/spaceship-360>.
 
 =item * sun.png
 
-Based on
-L<sun.png|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/sun.png&nid=3568>
-created by L<NASA, Solar Dynamics Observatory|http://sdo.gsfc.nasa.gov/>
-and licensed under the Public Domain, available at
+Based on sun.png created by
+L<NASA, Solar Dynamics Observatory|http://sdo.gsfc.nasa.gov/> and
+licensed under the Public Domain, available at
 L<http://opengameart.org/content/the-sun>.
 
 =back
