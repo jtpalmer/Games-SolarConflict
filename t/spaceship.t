@@ -3,8 +3,9 @@ use warnings;
 use Test::More;
 use Test::MockObject;
 use SDL;
+use Games::SolarConflict::Spaceship;
 
-BEGIN { use_ok 'Games::SolarConflict::Spaceship' || die $! }
+$ENV{SDL_VIDEODRIVER} = 'dummy' unless $ENV{RELEASE_TESTING};
 
 my $sprite = Test::MockObject->new();
 $sprite->set_isa('Games::SolarConflict::Sprite::Rotatable');
@@ -29,3 +30,4 @@ ok $ship->does('Games::SolarConflict::Roles::Drawable'),
 is $ship->x, 1, '$ship->x';
 
 done_testing();
+
