@@ -112,7 +112,7 @@ around BUILDARGS => sub {
         spaceship1 => $assets->file('spaceship1.png'),
         spaceship2 => $assets->file('spaceship2.png'),
         explosion  => $assets->file('explosion.png'),
-        font       => $assets->file('DejaVuSansMono-BoldOblique.ttf'),
+        font       => $assets->file('UbuntuMono-BI.ttf'),
     );
 
     my %view = (
@@ -225,10 +225,18 @@ This game was originally created for The SDL Perl Game Contest!
 
 =head1 ATTRIBUTION
 
-The artwork contained in this module is licensed separately from the
-code.
+The font and artwork contained in this module is licensed separately
+from the code.
 
 =over 4
+
+=item * DejaVuSansMono-BoldOblique.ttf
+
+Author: Bitstream, Inc.
+
+License:
+
+L<http://dejavu-fonts.org/>
 
 =item * backgound.bmp
 
