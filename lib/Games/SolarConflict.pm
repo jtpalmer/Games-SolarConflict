@@ -225,50 +225,50 @@ This game was originally created for The SDL Perl Game Contest!
 
 =head1 ATTRIBUTION
 
-The font and artwork contained in this module is licensed separately
-from the code.
+The font and image files contained in this distribution are licensed
+separately from the code.
 
 =over 4
 
-=item * DejaVuSansMono-BoldOblique.ttf
+=item * UbuntuMono-BI.ttf
 
-Author: Bitstream, Inc.
-
-License:
-
-L<http://dejavu-fonts.org/>
+Created by L<Canonical Ltd.|http://www.canonical.com/> and licensed
+under the
+L<Ubuntu Font License Version 1.0|http://font.ubuntu.com/licence/>,
+available at L<http://font.ubuntu.com/>.
 
 =item * backgound.bmp
 
-Author: L<beren77|http://opengameart.org/user/453>
-
-License: Public Domain
-
-L<http://opengameart.org/content/space-backdrop>
-
-=item * sun.bmp
-
-Author: L<NASA, Solar Dynamics Observatory|http://sdo.gsfc.nasa.gov/>
-
-License: Public Domain
-
-L<http://opengameart.org/content/the-sun>
-
-=item * spaceship1.bmp and spaceship2.bmp
-
-Author: L<Killy Overdrive|http://www.killyoverdrive.co.cc/>
-
-License: CC-BY 3.0
-
-L<http://opengameart.org/content/spaceship-360>
+Based on
+L<spacefield_a-000.png|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/spacefield_a-000.png&nid=3470>
+created by L<beren77|http://opengameart.org/user/453> and licensed under
+the Public Domain, available at
+L<http://opengameart.org/content/space-backdrop>.
 
 =item * explosion.bmp
 
-Author: L<Jonas Wagner|http://29a.ch/>
+Based on an image from
+L<jswars_gfx_cc3.zip|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/jswars_gfx_cc3.zip&nid=3282>
+created by L<Jonas Wagner|http://29a.ch/> and licensed under
+L<CC-BY-SA 3.0|http://creativecommons.org/licenses/by-sa/3.0/legalcode>,
+available at
+L<http://opengameart.org/content/asteroid-explosions-rocket-mine-and-laser>.
 
-License: CC-BY-SA 3.0
+=item * spaceship1.bmp and spaceship2.bmp
 
-L<http://opengameart.org/content/asteroid-explosions-rocket-mine-and-laser>
+Based on
+L<ship360_32.png|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/ship360_32.png&nid=4883>
+created by L<Killy Overdrive|http://www.killyoverdrive.co.cc/> and licensed
+under L<CC-BY 3.0|http://creativecommons.org/licenses/by/3.0/legalcode>,
+available at L<http://opengameart.org/content/spaceship-360>.
+
+=item * sun.bmp
+
+Based on
+L<sun.png|http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file=http://opengameart.org/sites/default/files/sun.png&nid=3568>
+created by L<NASA, Solar Dynamics Observatory|http://sdo.gsfc.nasa.gov/>
+and licensed under the Public Domain, available at
+L<http://opengameart.org/content/the-sun>.
 
 =back
 
@@ -276,21 +276,13 @@ L<http://opengameart.org/content/asteroid-explosions-rocket-mine-and-laser>
 
 =over 4
 
-=item *
+=item * L<solar-conflict.pl>
 
-L<solar-conflict.pl>
+=item * L<SDL>
 
-=item *
+=item * L<The SDL Perl Game Contest!|http://onionstand.blogspot.com/2011/02/sdl-perl-game-contest.html>
 
-L<SDL>
-
-=item *
-
-L<The SDL Perl Game Contest!|http://onionstand.blogspot.com/2011/02/sdl-perl-game-contest.html>
-
-=item *
-
-L<Spacewar!|http://en.wikipedia.org/wiki/Spacewar!>
+=item * L<Spacewar!|http://en.wikipedia.org/wiki/Spacewar!>
 
 =back
 

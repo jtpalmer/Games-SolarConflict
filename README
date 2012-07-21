@@ -10,49 +10,55 @@ DESCRIPTION
     This game was originally created for The SDL Perl Game Contest!
 
 ATTRIBUTION
-    The font and artwork contained in this module is licensed separately
-    from the code.
+    The font and image files contained in this distribution are licensed
+    separately from the code.
 
-    *   DejaVuSansMono-BoldOblique.ttf
+    *   UbuntuMono-BI.ttf
 
-        Author: Bitstream, Inc.
-
-        License:
-
-        <http://dejavu-fonts.org/>
+        Created by Canonical Ltd. <http://www.canonical.com/> and licensed
+        under the Ubuntu Font License Version 1.0
+        <http://font.ubuntu.com/licence/>, available at
+        <http://font.ubuntu.com/>.
 
     *   backgound.bmp
 
-        Author: beren77 <http://opengameart.org/user/453>
-
-        License: Public Domain
-
-        <http://opengameart.org/content/space-backdrop>
-
-    *   sun.bmp
-
-        Author: NASA, Solar Dynamics Observatory <http://sdo.gsfc.nasa.gov/>
-
-        License: Public Domain
-
-        <http://opengameart.org/content/the-sun>
-
-    *   spaceship1.bmp and spaceship2.bmp
-
-        Author: Killy Overdrive <http://www.killyoverdrive.co.cc/>
-
-        License: CC-BY 3.0
-
-        <http://opengameart.org/content/spaceship-360>
+        Based on spacefield_a-000.png
+        <http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file
+        =http://opengameart.org/sites/default/files/spacefield_a-000.png&nid
+        =3470> created by beren77 <http://opengameart.org/user/453> and
+        licensed under the Public Domain, available at
+        <http://opengameart.org/content/space-backdrop>.
 
     *   explosion.bmp
 
-        Author: Jonas Wagner <http://29a.ch/>
-
-        License: CC-BY-SA 3.0
-
+        Based on an image from jswars_gfx_cc3.zip
+        <http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file
+        =http://opengameart.org/sites/default/files/jswars_gfx_cc3.zip&nid=3
+        282> created by Jonas Wagner <http://29a.ch/> and licensed under
+        CC-BY-SA 3.0
+        <http://creativecommons.org/licenses/by-sa/3.0/legalcode>, available
+        at
         <http://opengameart.org/content/asteroid-explosions-rocket-mine-and-
-        laser>
+        laser>.
+
+    *   spaceship1.bmp and spaceship2.bmp
+
+        Based on ship360_32.png
+        <http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file
+        =http://opengameart.org/sites/default/files/ship360_32.png&nid=4883>
+        created by Killy Overdrive <http://www.killyoverdrive.co.cc/> and
+        licensed under CC-BY 3.0
+        <http://creativecommons.org/licenses/by/3.0/legalcode>, available at
+        <http://opengameart.org/content/spaceship-360>.
+
+    *   sun.bmp
+
+        Based on sun.png
+        <http://opengameart.org/sites/all/modules/pubdlcnt/pubdlcnt.php?file
+        =http://opengameart.org/sites/default/files/sun.png&nid=3568>
+        created by NASA, Solar Dynamics Observatory
+        <http://sdo.gsfc.nasa.gov/> and licensed under the Public Domain,
+        available at <http://opengameart.org/content/the-sun>.
 
 SEE ALSO
     *   solar-conflict.pl
