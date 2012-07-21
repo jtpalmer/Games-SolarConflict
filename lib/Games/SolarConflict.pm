@@ -223,6 +223,8 @@ Games::SolarConflict is a Spacewar! clone.
 
 This game was originally created for The SDL Perl Game Contest!
 
+See L<solar-conflict.pl> for instructions to play the game.
+
 =head1 ATTRIBUTION
 
 The font and image files contained in this distribution are licensed
