@@ -9,26 +9,17 @@ DESCRIPTION
 
     This game was originally created for The SDL Perl Game Contest!
 
-METHODS
-  transit_to
-    Arguments: $controller, %args?
-    Return value: undefined
-
-    Load a new controller.
-
-    *   $controller
-
-        The name of the controller.
-
-    *   %args
-
-        Any arguments to pass to the controller constructor.
-
-    Description
-
 ATTRIBUTION
-    The artwork contained in this module is licensed separately from the
-    code.
+    The font and artwork contained in this module is licensed separately
+    from the code.
+
+    *   DejaVuSansMono-BoldOblique.ttf
+
+        Author: Bitstream, Inc.
+
+        License:
+
+        <http://dejavu-fonts.org/>
 
     *   backgound.bmp
 
