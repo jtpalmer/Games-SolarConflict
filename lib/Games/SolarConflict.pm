@@ -279,7 +279,7 @@ L<http://opengameart.org/content/the-sun>.
 
 =item * L<The SDL Perl Game Contest!|http://onionstand.blogspot.com/2011/02/sdl-perl-game-contest.html>
 
-=item * L<Spacewar!|http://en.wikipedia.org/wiki/Spacewar!>
+=item * L<Spacewar!|http://en.wikipedia.org/wiki/Spacewar%21>
 
 =back
 
