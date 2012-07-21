@@ -18,17 +18,21 @@ Games::SolarConflict->new->run();
 
 exit;
 
+__END__
+
 =pod
 
 =head1 SYNOPSIS
+
+Start the game from the command line:
 
     solar-conflict.pl
 
 =head1 DESCRIPTION
 
-This script starts the game.  It will open a 1024x768 pixel window (plus
-the size of the window frame).  Game controls are displayed on the menu
-screen.
+This script starts the game.  It will open a 1024x768 window (plus the
+size of the window frame).  Game controls are displayed on the menu
+screen.  Close the window to end the game.
 
 =head1 SEE ALSO
 
